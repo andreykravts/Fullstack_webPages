@@ -1,0 +1,214 @@
+
+/* #region General */
+/***********
+general
+************/
+
+
+html{
+    font-size: 62.5%; /*10px*/
+}
+body{
+    /*All text propirities are inherated */
+    /*safe font stack*/
+    background-color: antiquewhite;
+
+}
+/* #region .bgimage */
+.bg1-image{
+
+
+    outline: 0.3em solid black;
+    background-image:
+    url("/images/1630.jpeg");
+
+    padding: 25em 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center center;
+}
+
+/* all headings position */
+
+main > section > h2{
+    margin-left: 14%;
+    margin-bottom: 5%;
+    box-sizing: content-box;
+    padding: 2em, 2em, 2em, 2em;
+}
+/* all sections positionung*/
+[class*=section-]{
+    width: 40%;
+    outline: 0.3em solid black;
+    box-sizing: border-box;
+    padding: 2em, 2em, 2em, 2em;
+    
+}
+/* all paragraphs positionung*/
+[class*=p- ]{
+    outline: 0.1em solid black;
+    box-sizing: content-box;
+    padding: 2em, 2em, 2em, 2em;
+    
+}
+
+/* #region two background images COMMENTED*/
+/* .bg1-image{
+
+
+    outline: 0.3em solid black;
+    background-image: url("/21_Lesson_With_Tania/AM_I/newOneVideoCourseBackroundImage/images/88191754-front-view-of-a-garage-3d-interior-with-opened-roller-door-3d-rendering.jpg"),
+    url("/21_Lesson_With_Tania/AM_I/newOneVideoCourseBackroundImage/images/1630.jpeg");
+
+    padding: 20em;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 10%,10%;
+
+    background-position: center left, center right;
+} */
+/* #endregion two background images */
+
+/*************** bg-1-9 starts here (table view)*********** */
+/*#region there is a class .image-grid (table) of  bg- 1-9 cells parameters */
+.image-grid{
+    
+    outline: 0.3em solid black;
+    padding: 10em;
+    /* table-form */
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+/* #endregion */
+
+/*#region there is a classes bg- 1-9 cells parameters */
+[class*=bg-]{
+    
+    outline: 0.3em solid black;
+    background-image: url(/images/honda-civic-1996-2000-1462179007.3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10em 10em;
+    background-position:center;
+}
+/* #endregion */
+
+/* #region .bg 1-9 positioning of images */
+.bg-1{
+    background-position: 
+        top left;
+}
+.bg-2{
+    background-position: 
+        top center;
+}
+.bg-3{
+    background-position: 
+        top right;
+}
+.bg-4{
+    background-position: 
+        center left;
+}
+.bg-5{
+    background-position: 
+        center center;
+}
+.bg-6{
+    background-position: 
+        center right;
+}
+.bg-7{
+    background-position: 
+        bottom left;
+}
+.bg-8{
+    background-position: 
+        bottom center;
+}
+.bg-9{
+    background-position: 
+        bottom right;
+}
+/* #endregion .bg 1-9 */
+
+
+/* #endregion .bgimage */
+
+
+
+
+/* #endregion General */
+
+/* #region TYPOGRAPHY */
+/***********
+TYPOGRAPHY
+************/
+/* all paragraphs typography*/
+[p- ]{
+    color: aliceblue;
+    
+}
+
+
+
+/**************type selector power low**************/
+
+
+/*************type selector power middle**************/
+
+
+/* #region p for screen pSpecial-1-9  */
+[class*=pSpecial-] {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding: 0.5em;
+    font-size:0.7em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+    
+}
+/* #endregion */
+
+
+
+.HeaderSectionOne{
+    display: table; /* keep the background color wrapped tight */
+    margin: -12em auto 0em -10%; /* keep the table centered */
+    padding: 0.5em;
+    font-size:2em;
+    text-align:center left;
+    
+    background-color: rgba(119, 237, 241, 0.466);
+    color: white;
+
+    width: 25ch;
+}
+
+[class*=p- ]{
+    font-size: 1.7em;
+    font-family: sans-serif;
+    
+}
+main > section > h2{
+    font-size: 5em;
+}
+
+/**************type selector power max**************/
+
+/* #endregion TYPOGRAPHY */
+
+
+ /* #region layout */
+/*********************
+ * placement
+ *********************/
+
+
+
+
+  /* #endregion layout */
